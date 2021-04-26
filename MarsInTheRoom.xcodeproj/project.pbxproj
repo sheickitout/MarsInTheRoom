@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885B02B52636DE7B002345F6 /* EarthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B02B42636DE7B002345F6 /* EarthViewController.swift */; };
 		889AAAA42631D08200D1BFC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889AAAA32631D08200D1BFC7 /* AppDelegate.swift */; };
 		889AAAA62631D08200D1BFC7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 889AAAA52631D08200D1BFC7 /* art.scnassets */; };
 		889AAAA82631D08200D1BFC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889AAAA72631D08200D1BFC7 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		885B02B42636DE7B002345F6 /* EarthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthViewController.swift; sourceTree = "<group>"; };
 		889AAAA02631D08200D1BFC7 /* MarsInTheRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsInTheRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		889AAAA32631D08200D1BFC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		889AAAA52631D08200D1BFC7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				889AAAA32631D08200D1BFC7 /* AppDelegate.swift */,
 				889AAAA52631D08200D1BFC7 /* art.scnassets */,
 				889AAAA72631D08200D1BFC7 /* ViewController.swift */,
+				885B02B42636DE7B002345F6 /* EarthViewController.swift */,
 				889AAAA92631D08200D1BFC7 /* Main.storyboard */,
 				889AAAAC2631D08400D1BFC7 /* Assets.xcassets */,
 				889AAAAE2631D08400D1BFC7 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				889AAAA82631D08200D1BFC7 /* ViewController.swift in Sources */,
 				889AAAA42631D08200D1BFC7 /* AppDelegate.swift in Sources */,
+				885B02B52636DE7B002345F6 /* EarthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
