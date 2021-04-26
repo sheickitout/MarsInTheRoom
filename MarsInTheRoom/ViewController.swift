@@ -21,12 +21,23 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
+     
         
-        // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        //Sphere
+        let sphere = SCNSphere(radius: 0.5)
+        //        Material
+        let material = SCNMaterial()
+        material.diffuse.contents = UIImage(named: "art.scnassets/8k_mars.jpeg")
+        sphere.materials = [material]
+        //        //Node Initialization
+        let node = SCNNode()
+       
+        //        Node Position,
+        node.position = SCNVector3(x: 0, y: 0, z: 1)
+        //        Node Geometry
+        node.geometry = sphere
         
-        // Set the scene to the view
-        sceneView.scene = scene
+        sceneView.scene.rootNode.addChildNode(node)
     }
     
     override func viewWillAppear(_ animated: Bool) {
